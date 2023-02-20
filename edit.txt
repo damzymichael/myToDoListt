@@ -1,0 +1,25 @@
+//To be continued
+//1. Editing(extend input length and save when there's no more focus) #done
+//2. set an error message in the placeholder and set focus on input if entry is empty after editing
+//2. Priority level not done
+//4. Add dark mode and light mode 
+//5. Save the icon display in local storage 
+
+// const removedCode = () => {
+//   const { name, id, completed, priorityLevel } = recent;
+//   let displayUndone = `
+//     <div class="taskStyles ${completed}" id="${priorityLevel}" data-id="${id}">
+//        <i class="fa-regular fa-square"></i>
+//        <span id="${spanID}">${name} </span>
+//        <button class="cancel">+</button>
+//     </div>
+//     `;
+//   output.innerHTML += displayUndone;
+// };
+
+//button#themes
+//h1
+//input#toDoEntry
+//#inputCont button
+//.taskstyles, .taskstyles .fa-regular, .taskstyles span, button.cancel
+//#undo

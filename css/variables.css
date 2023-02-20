@@ -1,0 +1,58 @@
+/*Variables */
+:root {
+  --background: #f2f2f2;
+  --lg-col: #2b6777;
+  --theme-bg-col: #2b6777;
+  --theme-bt-text: #fff;
+  --h1-col: teal;
+  --input-border: #0446587a;
+  --sub-bt-col: #2b6777;
+  --sub-bt-txt: #fff;
+  --todo-bg: #c8d8e4;
+  --todo-col: #212121;
+  --checked-icon: #212121;
+  --del-bt-bg: #212121;
+  --del-bt-txt: #fff;
+  --del-bt-hover: #2b6777;
+  --undo-bt-bg: #52ab98;
+  --undo-bt-txt: #fff;
+}
+.violet-theme {
+  --background: #d1adcc;
+  --lg-col: #5f2c3e;
+  --theme-bg-col: #5f2c3e;
+  --theme-bt-text: #fff;
+  --h1-col: #c65032;
+  --input-border: #5f2c3e;
+  --sub-bt-col: #5f2c3e;
+  --sub-bt-txt: #fff;
+  --todo-bg: #c2d2bd;
+  --todo-col: #5f2c3e;
+  --checked-icon: #5f2c3e;
+  --del-bt-bg: #5f2c3e;
+  --del-bt-txt: #fff;
+  --del-bt-hover: #5f2c3e95;
+  --undo-bt-bg: #c65032;
+  --undo-bt-txt: #fff;
+}
+.peach-theme {
+  --background: #fefbe9;
+  --lg-col: #f0a04b; 
+  --theme-bg-col: #f6c453;
+  --theme-bt-text: #000;
+  --h1-col: #f0a04b;
+  --input-border: #183a1d;
+  --sub-bt-col: #f9e45b;
+  --sub-bt-txt: #212121;
+  --todo-bg: #e1eedd;
+  --todo-col: #183a1d;
+  --checked-icon: #183a1d;
+  --del-bt-bg: #183a1d;
+  --del-bt-txt: #fff;
+  --del-bt-hover: #183a1d9c;
+  --undo-bt-bg: #f0a04b;
+  --undo-bt-txt: #fff;
+}
+.dark{
+  --background: #212121;
+}

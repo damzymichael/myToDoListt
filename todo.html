@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <title>To Do List | OOP</title>
+  </head>
+  <body>
+    
+      <div class="lightDark">
+        <i class="fa-solid fa-sun" id="no-display"></i>
+        <i class="fa-solid fa-moon"></i>
+      </div>
+
+      <button id="themes">Themes<i class="fa-solid fa-arrow-down"></i></button>
+      <nav class="nav-themes">
+        <ul>
+          <li class="theme violet">Violet</li>
+          <li class="theme peach">Peach</li>
+          <li class="theme teal">Teal</li>
+        </ul>
+      </nav>
+      <h1>ToDo LIST</h1>
+
+      <div id="inputCont">
+        <input
+          type="text"
+          name="text"
+          id="toDoEntry"
+          placeholder="What are you doing today..."
+        />
+        <p id="errorMessage" class="error">
+          No task entered, please enter your input
+        </p>
+        <button class="submit">Done</button>
+      </div>
+
+      <div id="out"></div>
+      <p id="noDeletedMessage" class="error">No deleted tasks</p>
+      <button id="unDo">Undo Delete</button>
+      <!-- <div id="doneTrash">
+      <i class="fa-regular fa-trash-can"><span></span></i>
+      <i class="fa-regular fa-square-check"><span></span></i>
+    </div> -->
+    
+
+    <script src="js/storage.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/class.js"></script>
+    <script src="js/func.js"></script>
+  </body>
+</html>

@@ -211,7 +211,19 @@ button.cancel {
 } */
 
 @media screen and (max-width: 720px) {
+  .lightDark{
+    margin-left: 10px;
+  }
   body{
     width: 90vw;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .taskStyles {
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    gap: 5px;
+  } 
+} 
